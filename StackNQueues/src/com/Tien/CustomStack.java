@@ -42,7 +42,7 @@ public class CustomStack {
 		return data[ptr];
 	}
 
-	private boolean isFull() {
+	protected boolean isFull() {
 		
 		return ptr == data.length - 1; // ptr is at last index
 	}
